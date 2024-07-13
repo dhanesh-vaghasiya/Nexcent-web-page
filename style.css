@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+.green-btn{
+    @apply rounded-[4px] bg-[#4caf4f] px-[20px] py-[10px] text-[14px] font-medium text-white hover:text-[#4caf4f] hover:bg-transparent transition-all active:text-[15px] active:px-[18px] ;
+    transition-duration: 400ms;
+}
+
+.bg-theme-green{
+    @apply bg-[#4caf4f];
+}
+
+.basic-small-text{
+    @apply text-[16px] text-[#717171] font-normal;
+}
+
+.basic-large-text{
+    @apply text-[#4d4d4d] text-4xl font-semibold;
+}
+
+.white-text{
+    @apply text-white text-2xl font-semibold;
+}
